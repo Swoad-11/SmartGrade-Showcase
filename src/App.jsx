@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import StudentsTable from "./components/StudentsTable/StudentsTable";
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
       <body className="bg-[#172227] font-[Inter] text-white">
         <Navbar />
         <Hero />
+        <StudentsTable />
       </body>
     </>
   );
