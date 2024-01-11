@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 export default function App() {
@@ -5,6 +6,7 @@ export default function App() {
     <>
       <body className="bg-[#172227] font-[Inter] text-white">
         <Navbar />
+        <Hero />
       </body>
     </>
   );
